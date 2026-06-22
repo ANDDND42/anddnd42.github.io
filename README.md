@@ -1,57 +1,47 @@
-# Portfolio - Metehan Akkuyu
+# Metehan Akkuyu — Developer Portfolio
 
-This repository hosts my personal portfolio website, built with HTML, CSS, and JavaScript.  
-It serves as a showcase of my work, skills, and projects, and is deployed with **GitHub Pages**.
+My personal portfolio website, showcasing my work as a Front-End Developer and Team Lead. It is a static site deployed with **GitHub Pages**.
 
-🌐 **Live Website:** [Visit Portfolio](https://anddnd42.github.io/)
+**Live site:** https://anddnd42.github.io/
 
----
+## About
 
-## 📖 About
+A Front-End Developer with 5+ years of experience building modern web applications and leading teams. This site highlights my professional background and a selection of real projects across different technologies (JavaScript, Python, Node.js, WordPress). It includes my featured experience, project links, and contact details.
 
-The portfolio highlights my background as a developer and team lead, as well as selected projects across different technologies such as **Python, React, Next.js, Node.js, and WordPress**.  
-It includes:
-- Professional experience at **MeetMatch** as a Frontend Developer & Team Lead.
-- Featured projects with source code and live demos.
-- Contact information and social links (LinkedIn & GitHub).
+## Built with
 
----
+- **HTML5 & CSS3** — structure and styling
+- **JavaScript / jQuery** — interactivity and animations
+- **Responsive, mobile-first** layout
+- **Template:** [Massively](https://html5up.net/massively) by HTML5 UP
+- **Hosting:** GitHub Pages
 
-## 🛠️ Technologies Used
+## Featured work
 
-- **HTML5 / CSS3** – Base structure and styling.
-- **JavaScript / jQuery** – Interactivity and animations.
-- **Responsive Design** – Mobile-first approach.
-- **Template** – Adapted from [HTML5 UP](https://html5up.net).
+- **MeetMatch — Team Lead, Front-End Developer.** Owned the front-end architecture of a B2B event-networking platform and led a team of three. Designed and built an automated visual-regression testing system (Puppeteer + image comparison) that cut a manual test pass from ~1 hour to under 3 minutes. The platform now operates as [Apella](https://theapella.com/).
+- **TraderBot (Python).** A backtesting and visualization tool for a custom VIDYA + OTT crossover trading strategy. → [Source code](https://github.com/ANDDND42/python-crypto-ott-strategy)
+- **MSA Infrastructure (WordPress).** A professional website for a sustainable-development company. → [Live site](https://msa-infra.be/)
+- **missMoss (Freelance).** A custom website built end-to-end for a small Belgian business. → [Live site](https://missmoss.be/)
 
----
+## Run locally
 
-## 🚀 Projects Featured
+This is a static site, so no build step is required:
 
-- **Python TraderBot** – A trading bot with backtesting engine using VIDYA + OTT strategies.  
-  [🔗 Source Code](https://github.com/ANDDND42/python-projects)
+```bash
+git clone https://github.com/ANDDND42/anddnd42.github.io.git
+cd anddnd42.github.io
 
-- **WordPress Website** – Professional site for MSA Infrastructure.  
-  [🔗 Live Website](https://msa-infra.be/)
+# open index.html directly, or serve it locally:
+python -m http.server 8000
+# then visit http://localhost:8000
+```
 
-- **React Tic Tac Toe** – Classic game built with React components & state management.  
-  [🔗 Source Code](https://github.com/ANDDND42/reactTicTac)
+## Contact
 
-- **Next.js Web Application** – Full-stack app with Postgres, search, pagination, authentication & SEO.  
-  [🔗 Source Code](https://github.com/ANDDND42/Next-js-project)
+- **LinkedIn:** [linkedin.com/in/metehan-akkuyu](https://www.linkedin.com/in/metehan-akkuyu/)
+- **GitHub:** [github.com/ANDDND42](https://github.com/ANDDND42)
+- **Email:** metehan.akkuyu@gmail.com
 
----
+## Credits
 
-## 📬 Contact
-
-- **Email:** [metehan.akkuyu@gmail.com](mailto:metehan.akkuyu@gmail.com)  
-- **Phone:** [+32 45 67 154 35](tel:+32456715435)  
-- **LinkedIn:** [Metehan Akkuyu](https://www.linkedin.com/in/metehan-akkuyu/)  
-- **GitHub:** [ANDDND42](https://github.com/ANDDND42)
-
----
-
-## 📜 License
-
-This project uses design assets from [HTML5 UP](https://html5up.net).  
-© Metehan Akkuyu. All rights reserved.
+Website template: [Massively](https://html5up.net/massively) by HTML5 UP, used under the Creative Commons Attribution 3.0 license. See [LICENSE.txt](LICENSE.txt) for details.
